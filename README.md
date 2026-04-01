@@ -5,6 +5,18 @@ Sudoku solver using backtracking
 A given sudoku puzzle likes look the following puzzle: its a 9x9 square with some numbers
 filled in and some empty cells
 
+|   |   | 3 | 7 | 1 |   |   |   | 9 |
+|   |   |   |   |   |   | 4 |   |   |
+|   |   |   |   | 5 |   |   |   | 6 |
+
+| 9 |   |   |   |   | 5 | 6 |   |   |
+| 7 |   | 8 |   |   |   |   |   | 1 |
+| 3 |   | 5 |   | 2 |   |   |   |   |
+
+|   |   | 1 |   |   | 4 |   | 2 |   |
+|   |   |   |   |   |   | 7 | 3 |   |
+|   |   |   |   |   |   |   |   |   |
+
 [[x00, x01, x02, x03... x08],
  [x10, x11, x12, x13... x18],
  ...
