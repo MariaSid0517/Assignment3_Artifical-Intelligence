@@ -26,4 +26,18 @@ These x_rc values correspond to the value at the rth row, cth column (starting w
 The goal is to fill in the empty spots and ensure that the rows, columns, and 
 each 3x3 box have 9 different numbers.
 
-Now, let's solve our sudoku puzzle using Python! :D
+Now, let's solve our sudoku puzzle using Python!
+
+Packages:
+To run this code, you will need to use the pprint library to bring the sudoku puzzle.
+python 3.13.1
+
+
+Input/Output:
+To enter a puzzle to be solved, you need to enclose the entire puzzle in brackets and each row should also consist of brackets. Each number in the row should be separated by commas, and each row should be separated by a bracket and comma as well. The -1 is a placeholder for the spaces in the puzzle and will be replaced by the correct number that correctly solves the puzzle.
+The output will return in the same format as the input. 
+
+In order to change input, you need to assign a name to a puzzle using the format described above
+and then call the function solve_sudoku to solve the puzzle. However, you need to print the function and it will return either true or false. 
+
+pprint will return the solved puzzle with the correct numbers if solve_sudoku was true.
