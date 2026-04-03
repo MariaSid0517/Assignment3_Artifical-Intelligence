@@ -86,3 +86,15 @@ if __name__ == '__main__':
     ]
     print(solve_sudoku(example_board))
     pprint(example_board)
+    unsolvable_board = [
+        [5, 1, 6,   8, 4, 9,   7, 3, 5],  # two 5s in this row
+        [3, -1, 7,   6, -1, 5,   -1, -1, -1],
+        [-1, 8, 9,   7, -1, -1,   -1, 6, -1],
+        [1, -1, 5,   -1, 2, -1,   4, -1, -1],
+        [4, -1, -1,   -1, -1, -1,   -1, -1, 2],
+        [-1, -1, 4,   -1, 9, -1,   3, -1, 1],
+        [-1, 6, -1,   -1, -1, 3,   9, 8, -1],
+        [-1, -1, -1,   5, -1, 6,   2, -1, 4],
+        [-1, 4, 2,   9, 7, -1,   6, 5, -1]
+    ]
+    print(solve_sudoku(unsolvable_board))  # should print False
